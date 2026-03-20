@@ -66,27 +66,18 @@ current flows through its emitter generating the voltage across the resistance c
 
 ---
 
-## BLOCK DIAGR
-
-
----
-
 
 ## TABULATION  
-**Transmission through Analog Link**
-
-| Frequency (Hz) | Output Signal Amplitude (Vo) | Gain = Vo/Vi | Gain in dB |
-|----------------|------------------------------|--------------|------------|
-|                |                              |              |            |
-
----
+<img width="1600" height="1071" alt="image" src="https://github.com/user-attachments/assets/4f3456f5-6769-4f4b-83b2-e63ff64e8db3" />
 
 ## MODEL GRAPH
 
-*(Insert model graph here)*
+<img width="1280" height="932" alt="image" src="https://github.com/user-attachments/assets/269ffa8d-d6cf-4d0c-ab29-68a5faad6930" />
 
----
 
 ## RESULT
 
-*(Summarize observations and conclusions here)*
+The analog fiber optic link at **660 nm** successfully transmitted the input signal, with the output closely matching the input at low frequencies.
+
+The frequency response showed a bandwidth limitation (~300 kHz), where signal amplitude decreased beyond the 3 dB cutoff due to the phototransistor’s response time.
+
